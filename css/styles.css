@@ -1,0 +1,62 @@
+/* Hoja de estilos */
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background: ghostwhite;
+}
+
+footer {
+    text-align: center;
+}
+
+p {
+    font-size: 25px;
+}
+
+[class^="info-"] {
+    font-weight: bold;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    line-height: 100px;
+}
+
+.seccion-info-gustos {
+    display: flex;
+}
+
+
+/* header .titulo-header {
+    margin-left: 1em;
+} */
+
+.informacion-basica {
+    margin-left: 20%;
+    margin-right: 55px;
+}
+
+.gustos {
+    margin-left: 50px;
+    width: auto;
+    margin-right: 20%;
+}
+
+.collage {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 20%;
+    margin-right: 20%;
+    padding-top: 35px;
+    padding-bottom: 15px;
+}
+
+[class^="img-"] {
+    width: 200px;
+    height: 150px;
+}
